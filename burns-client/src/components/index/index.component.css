@@ -1,0 +1,53 @@
+header{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logo-container{
+    margin: 0px auto;
+}
+
+.logo-container img{
+    width: 120px;
+    height: auto;
+    margin: 0px auto;
+}
+
+.bm-burger-button {
+    padding: 5px;
+    width: 36px;
+    height: 30px;
+  }
+
+.circular-button{
+    width: 70px;
+    height: auto;
+    cursor: pointer;
+}
+
+
+.svg-button{
+    width: 60px;
+    height: auto;
+    padding: 0;
+    -webkit-filter: drop-shadow(0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19));
+
+}
+
+.small{
+    font-size: 20pt;
+}
+
+footer{
+    position: fixed;
+    z-index: 1000;
+    bottom: 10px;
+    right: 10px;
+}
+
